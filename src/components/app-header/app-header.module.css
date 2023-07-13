@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background);
+    padding: 0 320px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: var(--common-transition);
+}
+
+.link:hover {
+    box-shadow: 0 0 16px 8px rgba(51,51,255,.25), 0 0 8px 8px rgba(51,51,255,.25);
+    filter: drop-shadow(0 4px 32px rgba(51,51,255,.5));
+}
+
+.buttons_block {
+    display: flex;
+}

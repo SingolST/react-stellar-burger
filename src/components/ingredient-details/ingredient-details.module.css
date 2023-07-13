@@ -1,0 +1,30 @@
+.ingredient_details {
+    border-radius: calc(var(--offset-base-size) * 10);
+}
+
+.title_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info_block {
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.info_name { 
+    text-align: center;
+}
+
+.info_ingredients {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: calc(var(--offset-base-size) * 5);
+}
+
+.text_info {
+    text-align: center;
+}

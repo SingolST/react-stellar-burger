@@ -1,0 +1,26 @@
+.modal {
+    max-width: 720px;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-radius: 40px;
+    visibility: hidden;
+}
+
+.modal_active {
+    visibility: visible;
+
+}
+
+.modal_close {
+    position: absolute;
+    cursor: pointer;
+    right: calc(var(--offset-base-size) * 10);
+    top: calc(var(--offset-base-size) * 15);
+}
